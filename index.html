@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<link rel="icon" href="img/dpfavicon.ico" type="image" sizes="16x16">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gabriel Storm - Digital Portfolio</title>
+
+<link rel="stylesheet" href="files/reset.css">
+<link rel="stylesheet" media="screen and (max-width:480px)" href="files/mobile.css">
+<link rel="stylesheet" media="screen and (min-width:481px)" href="files/cv.css">
+<link rel="stylesheet" media="print" href="files/print.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header role="banner">
+		<div class="container_16">
+				<hgroup>
+					<h1>Gabriel Storm</h1>
+					<h2>Aspiring Computer Engineer</h2>
+				</hgroup>
+
+				<figure>
+					<img class= "bannerbg" src="img/Profile Picture.jpg" alt="Gabriel Storm">
+				</figure>
+		</div>
+	</header>
+	
+	<!-- Contact -->
+	<section class="contactform clearfix">
+		<div class="container_16">
+			<h3>Contact me</h3>
+			<p>Please use this to contact me at any time!
+			<br><em>I will try to respond as soon as I am able</em></p>
+			<form novalidate="novalidate" method="post" action="contact.php" name="contact" class="grid_16">
+				<p class="grid_10"><textarea name="message" placeholder="enter your message" class="required"></textarea></p>
+				<p class="grid_6">
+					<input name="name" placeholder="name" class="required" type="text">
+					<input name="email" placeholder="email" class="required" type="email">	
+					<input name="message" value="message" class="required" type="submit">
+					<span class="messageform"></span>
+				</p>
+			</form>
+		</div>
+	</section>
+	
+	<!-- Corps -->
+	<section role="main" class="container_16 clearfix">
+		<div class="grid_16">
+			<!-- About -->
+			<div class="grid_8 apropos">
+				<h3>About Me</h3>
+				<p>Hello! My name is Gabriel Storm and I am a student at Madison Academic High School. I a very intrested in computer technologies and intend to go into a Computer Engineering career.</p>
+
+				<p><a href="https://www.linkedin.com/in/gabriel-s-1297b7138/">View my LinkedIn profile</a></p>
+        <p><a href="Digital Portfolio Resume.doc">Take a look at my Resume</a></p>
+			</div>
+			
+			<!-- Skills -->
+			<div class="grid_8 competences">
+				<h3>Skills</h3>
+				<ul class="barres">
+					<li data-skills="80">HTML<span style="width: 80%;"></span></li>
+					<li data-skills="60">CSS<span style="width: 60%;"></span></li>
+					<li data-skills="75">SASS<span style="width: 75%;"></span></li>
+					<li data-skills="40">Swift<span style="width: 40%;"></span></li>
+					<li data-skills="95">MySQL Database<span style="width: 95%;"></span></li>
+				</ul>
+			</div>
+		</div>
+		
+			<!-- Selected Projects -->
+			<div class="grid_16 experiences">
+				<h3>Selected Projects</h3>
+				<ul>
+					<li>
+						<h4><strong>Web Design Contest</strong> Dev-Catalyst</h4>
+						<span class="dates">2015-2017</span>
+						<p><a href="https://github.com/Gabriel-Roen/Web-Design-Dev-Catalyst-Project">Check out the project!</a></p>
+					</li>
+					<li>
+						<h4><strong>Advanced Web Design Contest</strong> Dev-Catalyst</h4>
+						<span class="dates">2016-2017</span>
+						<p><a href="https://github.com/Gabriel-Roen/Advanced-Web-Design-Entry">Check out the project!</a></p>
+					</li>
+				</ul>
+			</div>
+		
+			<!-- View my code -->
+			<div class="grid_16 formations">
+				<h3>View my code</h3>
+				<ul>
+					<li>
+						<h4><strong>Code Repository </strong> on Git Hub</h4>
+						<span class="lieu"><a href="https://github.com/Gabriel-Roen">View my code on GitHub</a></span>
+						<p>This site contains examples of works and projects that I have completed</p>
+					</li>
+			</div>
+		
+			<!-- Other work examples -->
+			<div class="grid_8 loisirs">
+				<h3>Other work examples</h3>
+				<p><strong>Writing :</strong> <a href="Reasons for the revival of the Cold War in the early 1980s.pdf">Here is a sample piece of writing</a></p>
+				<p><strong>Civic Engagement :</strong> Volunteered at the Jackson Madison County Humane Society clocking in over 60 hours</p>
+			</div>
+		
+			<!-- Contact -->
+			<div class="grid_8 contact">
+				<h3>Contact</h3>
+				<p>If my profile and work interests you, then please contact me:</p>
+				<ul>
+					<li class="lieu">Jackson, TN</li>
+					<li class="phone">(731) - 422 - 6868</li>
+					<li class="mail"><a href="mailto:gstormburge@gmail.com">gstormburge@gmail.com</a></li>
+					<li class="form"><a class="toContactform">Use the contact form.</a></li>
+				</ul>
+			</div>
+	</section>
+
+<!-- JavaScript -->
+<script src="files/jquery-1.js"></script>
+<script src="files/validate.js"></script>
+<script src="files/plugins.js"></script>
+
+</body></html>
